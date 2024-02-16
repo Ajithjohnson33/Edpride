@@ -1,0 +1,33 @@
+.trendingDesigns {
+  background-color: rgb(255, 230, 230);
+  /* Other styles... */
+}
+
+.homeSection {
+  display: flex;
+  justify-content: space-between;
+  /* Other styles... */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Other styles... */
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10vw; /* Slightly push content to the right */
+  /* Other styles... */
+}
+
+.bannerImage {
+  max-width: 100%;
+  height: auto;
+  /* Remove or reduce margin-left if needed */
+  /* Other styles... */
+}

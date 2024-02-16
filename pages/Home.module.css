@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    background-color: 'purple';
+    text-align: 'left';
+    padding: '110px';
+  }
+  
+  .mobileTablet {
+    display: block;
+    text-align: 'center';
+    padding: '30px 15px';
+  }
+  
+  .textContent {
+    color: 'white';
+    width: '50%';
+  }
+  
+  .button {
+    margin-top: '20px';
+    padding: '10px 20px';
+    font-size: '16px';
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: '50px 30px';
+    }
+    .textContent {
+      width: '100%';
+    }
+    .button {
+      font-size: '14px';
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .container {
+      padding: '50px 30px';
+    }
+    .textContent {
+      width: '100%';
+    }
+  }

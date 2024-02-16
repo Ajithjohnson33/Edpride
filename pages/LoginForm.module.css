@@ -1,0 +1,318 @@
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Space out the logo and the nav items */
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2.9rem;
+  background-color:   purple;;
+}
+
+.navbar {
+  width: 100%;
+  background-color:   purple; /* Replace with your desired navbar background color */
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
+  padding:  20px; /* Padding on the sides */
+  display: flex;
+  justify-content: space-between; /* Space out the logo and the nav items */
+  align-items: center; /* Align the items vertically */
+}
+
+.navLogo {
+  font-size: 24px; /* Example size, adjust as needed */
+  color: #6200ee; /* Example color, adjust as needed */
+  font-weight: bold; /* Optional: makes the logo text bold */
+}
+
+.navItems {
+  list-style: none; /* Remove default list styling */
+  display: flex;
+  gap: 20px; /* Space between each nav item */
+  margin: 0; /* Reset default margins */
+  padding: 0; /* Reset default padding */
+  color: white;
+}
+
+
+.navItem {
+  color: white; /* Change nav item text color to white */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: 500; /* Adjust font weight as needed */
+}
+
+.navItem:hover {
+  color: #6200ee; /* Nav item hover color, adjust as needed */
+}
+
+
+.container {
+
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* No outer margin */
+  padding: 0; /* No inner padding */
+  background-color: purple; /* Background color */
+  width: 100%;
+}
+
+.subContainer{
+  display: flex;
+  flex-direction: row; /* Items side by side */
+  align-items: center; /* Stretch items to fill the container height */
+  justify-content: center;
+  padding: 1rem 3rem;
+}
+
+.loginInput {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 10px;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.iconButton {
+  color: #fff;
+  margin-left: 0.5rem;
+ 
+}
+
+
+.formContainer, .imageSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
+.formContainer {
+  height: 70vh;
+}
+
+.imageSection {
+  width: 90%;
+  margin: 0; /* No margin to ensure sections are adjacent */
+  
+
+}
+
+.image {
+  width: 100%; /* Full width to match the container */
+  /* height: 79.1vh; */
+  height: 76.4vh;
+}
+
+.formContainer {
+  /* flex: 1; Take up half the space */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  background-color:  rgb(223, 136, 223); /* Purple background */
+  padding: 0; /* No padding to avoid internal spacing */
+  margin: 0; /* No margin to avoid external spacing */
+}
+
+.title {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.inputField {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.link {
+  display: inline-block;
+  color: white; 
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 20px; /* Add right margin to both links */
+}
+
+
+.link:last-child {
+  margin-right: 0; /* Remove right margin for the last link */
+}
+
+.link:hover {
+  color: #dddddd;
+}
+
+.actionContainer {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items on smaller screens */
+    height: auto; /* Height adjusts based on content */
+  }
+
+  .formContainer {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .imageSection {
+    flex: 1; /* Take up half the space */
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+  }
+ 
+}
+
+.loginContainer {
+  background-color: rgb(214, 103, 214); /* Adjust the color to match the example */
+  padding: 40px;
+  width: 100%;
+  max-width: 400px; /* Adjust width as needed */
+  margin: auto;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+}
+
+.loginTitle {
+  margin-bottom: 20px;
+  text-align: left; /* Aligns the title to the left */
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: black; /* Your button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: black; 
+}
+
+.inputGroup {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputGroup input {
+  width: 100%;
+  
+ border: none;
+  background-color: transparent; /* Sets the background color to purple */
+  color: white; /* Sets the text color to white for better visibility */
+
+  outline: none; /* Removes the outline on focus */
+  background: none; /* Removes the default background */
+  -webkit-appearance: none; /* Removes default styling in WebKit browsers */
+  -moz-appearance: none; /* Removes default styling in Mozilla browsers */
+  appearance: none;
+}
+
+.inputGroup input:-webkit-autofill {   
+  background-color: transparent; 
+ }
+
+.inputGroup input:focus {
+border: none;
+}
+.inputGroup input::placeholder {
+    color: white; /* Set placeholder text color to white */
+    opacity: 1; /* Ensure the color doesn't have reduced opacity */
+  }
+  
+
+.rememberMe {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.rememberMe input {
+  margin-right: 10px;
+}
+
+.loginButton {
+  background-color: white;
+  color: black; /* Button text color - match with the container background */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.loginButton:hover {
+  background-color: #eeeeee; /* Lighter shade for hover state */
+}
+
+.helpLinks {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.helpLinks a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.helpLinks a:hover {
+  text-decoration: underline;
+}
+
+.forgotPasswordLink {
+  margin-right: 20px; /* Add space to the right of the "Forgot Password" link */
+}
+
+.registerSpan {
+  display: inline-block; /* This makes margin effective on span */
+  margin-left: 20px; /* Add space to the left of the "Don't have an account?" text */
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2.9rem;
+  color: white;
+}
+
+.second{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+}
+
+
+
+
+
+
+

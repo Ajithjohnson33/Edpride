@@ -1,0 +1,84 @@
+.sidebar {
+    height: 100vh; /* Full-height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style sidebar links on hover */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .profileContainer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    /* background-color: #ffd700;  */
+    border-radius: 50px; /* Rounded corners for the container */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Box shadow for depth */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    /* background-color: #ffd700;  */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .avatar {
+    width: 80px; /* Set the size of the avatar */
+    height: 80px; /* Set the size of the avatar */
+    border-radius: 50%; /* Make the avatar round */
+    margin-bottom: 10px; /* Space between the avatar and the user name */
+  }
+  
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column; /* Stack name and package info vertically */
+    align-items: center; /* Center text */
+    margin-bottom: 10px; /* Space between user info and the button */
+  }
+  
+  .userName, .packageName {
+    margin: 5px 0; /* Add some space between the name and package text */
+     /* Text color */
+    font-size: 0.9em;
+  }
+  
+  
+  .upgradeButton {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 20px; /* Rounded corners for the button */
+    cursor: pointer;
+    font-size: 16px; /* Button text size */
+  }
+  
+  
+  
+  

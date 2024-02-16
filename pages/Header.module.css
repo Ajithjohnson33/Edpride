@@ -1,0 +1,45 @@
+/* styles/Header.module.css */
+.header {
+  background-color: purple;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.navList {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+  
+.navItem {
+  margin: 0 10px;
+  padding: 0.5rem 1rem;
+}
+  
+.navItem a {
+  text-decoration: none;
+  color: white; /* Updated to set text color to white */
+  transition: color 0.3s ease;
+}
+
+.navItem a:hover {
+  color: #0070f3;
+
+}
+
+
+.login{
+  border: 1px solid white;
+ 
+}
+
+
+
+
+
+
+  

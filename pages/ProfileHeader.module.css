@@ -1,0 +1,67 @@
+
+.profileHeader {
+    display: flex;
+    justify-content: center; /* Aligns children (items) horizontally center */
+    align-items: center; /* Aligns children (items) vertically center */
+    padding: 20px;
+    background: linear-gradient(to right, #6e48aa, #9d50bb); /* Example gradient */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    
+  }
+
+  .innerContainer {
+    width: 100%; /* Or max-width if you want it to be less than 100% */
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: auto; /* This will center the container if it's less than 100% */
+    display: flex;
+    justify-content: space-between; /* Space out the child elements */
+    align-items: center;
+  }
+  
+  .profileHeader .welcomeSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileHeader .welcomeSection .welcomeText {
+    margin-left: 15px;
+  }
+  
+  .profileHeader .welcomeSection .welcomeText h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .profileHeader .welcomeSection .welcomeText p {
+    margin: 4px 0 0;
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  .profileHeader .actionItems {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileHeader .actionItems > * {
+    margin-left: 10px;
+  }
+  
+  .profileHeader .actionItems button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff; /* A light background for the buttons */
+    color: #333; /* Dark text color for contrast */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .profileHeader .actionItems button:hover {
+    background-color: #eee; /* Slightly darker on hover */
+  }
+  
+ 
+  
+  

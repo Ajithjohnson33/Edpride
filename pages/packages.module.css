@@ -1,0 +1,131 @@
+/* styles/Pricing.module.css */
+
+.navbar-light {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  color: #6f42c1; /* Purple like in the image */
+}
+
+.nav-link {
+  color: #343a40; /* Dark color for the links */
+}
+
+
+
+.navbar-light {
+  background-color: purple; /* Your preferred shade of purple */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link,
+.navbar-light .btn {
+  color: white; /* Set text color to white */
+}
+
+.navbar-light .nav-link:hover,
+.navbar-light .btn:hover {
+  color: #ccc; /* Lighter color on hover for visibility */
+}
+
+/* For the button to have white border */
+.navbar-light .btn {
+  border-color: white; /* Set border color to white */
+}
+
+
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+ 
+  
+  .main {
+    background: linear-gradient(160deg, #6D5BBA 0%, #8D58BF 100%);
+    color: white;
+    text-align: center;
+    padding: 50px 15px;
+  }
+  
+  .title {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .pricingCards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  /* Individual card styles */
+  .card {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px; /* Adjust as necessary */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardTitle {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .cardPrice {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .featuresList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    text-align: left;
+    padding: 10px 0;
+    border-top: 1px solid #ececec;
+  }
+  
+  .cardButton {
+    background-color: #8D58BF; /* Match this to your main gradient */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+  }
+  
+  .cardButton:hover {
+    background-color: darken(#8D58BF, 10%); /* Slightly darken on hover */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .pricingCards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%;
+      max-width: 340px;
+    }
+  }
+  
+  /* Add more styles as needed */
+  

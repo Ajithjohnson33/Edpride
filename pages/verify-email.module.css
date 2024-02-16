@@ -1,0 +1,90 @@
+/* Place this inside your existing CSS file */
+
+/* Adjust the color based on the image */
+
+  /* Adjust the color based on the image */
+  .navbar-light {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    color: #6f42c1; /* Purple like in the image */
+  }
+  
+  .nav-link {
+    color: #343a40; /* Dark color for the links */
+  }
+  
+  
+  
+  .navbar-light {
+    background-color: purple; /* Your preferred shade of purple */
+  }
+  
+  .navbar-light .navbar-brand,
+  .navbar-light .nav-link,
+  .navbar-light .btn {
+    color: white; /* Set text color to white */
+  }
+  
+  .navbar-light .nav-link:hover,
+  .navbar-light .btn:hover {
+    color: #ccc; /* Lighter color on hover for visibility */
+  }
+  
+  /* For the button to have white border */
+  .navbar-light .btn {
+    border-color: white; /* Set border color to white */
+  }
+  
+  .btn-outline-primary:hover {
+    color: #fff; /* White text on hover */
+    background-color: #007bff; /* Blue background on hover */
+    border-color: #007bff; /* Blue border on hover */
+  }
+
+  .sidebar {
+    flex: 0 0 200px; /* Adjust width as needed */
+    background-color: blue; /* Blue background */
+    padding: 20px;
+    height: calc(100vh - 56px); /* Adjust height based on navbar height */
+    overflow-y: auto; /* Enables scrolling for the sidebar if content is long */
+  }
+  
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: red; /* You might want to change or remove this if it conflicts with the blue background */
+    border-radius: 5px;
+    color: #ffffff; /* Set text color to white */
+  }
+  
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  /* Existing styles... */
+  
+  
+  .main-section {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px; /* Adjust width as needed */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    height: calc(100vh - 56px); /* Adjust height based on navbar height */
+    overflow-y: auto; /* Enables scrolling for the sidebar if content is long */
+  }
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e7e7e7; /* Slightly darker gray */
+    border-radius: 5px;
+  }
+  
+  
